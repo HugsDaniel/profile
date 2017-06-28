@@ -13,51 +13,79 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="card text-center">
-        <img id="img-profile" class="img-circle" src="./pictures/calvin.jpg" alt="Oim" id="logo">
-        <h1>Hugo Daniel</h1>
-        <h2>CEO @VlaBienCorp</h2>
-        <p>Le savon de marseille est un animal aquatique incompressible. Il est bien connu pour sa faculté à diffracter la lumière des ampoules basse consommation <strong>de marque Leclerc.</strong></p>
-        <a class="btn-red" href="https://www.savoir-inutile.com/" target="_blank">Apprend vla les trucs</a>
-      </div>
 
-      <div class="card text-center">
-        <ul class="list-inline">
-          <li class="text-center"><a href="https://www.9gag.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> <br>Facebook</a></li>
-          <li class="text-center"><a href="https://www.9gag.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> <br>LinkedIn</a></li>
-          <li class="text-center"><a href="https://www.9gag.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> <br>Twitter</a></li>
-        </ul>
-      </div>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-bullhorn" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#facts">
+            <i class="fa fa-truck"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#footer">
+            <i class="fa fa-btc" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
 
-      <div class="card text-center">
-        <h2>Mes connaissances que je préfère les plus</h2>
-        <table id="facts">
-          <tbody>
-            <tr>
-              <td><img src="./pictures/index.jpeg" alt="Escargot"></td>
-              <td><h3>L'escargot</h3><p>L'esgargot il a plus de 20 000 dents microscopiques sur sa langue.</p></td>
-            </tr>
-            <tr>
-              <td><img src="./pictures/blanchiment-des-dents.jpeg" alt="Dent"></td>
-              <td><h3>Fait divers</h3><p>En 1977, un jeune de 13 ans a remarqué qu'une dent poussait sur son pied gauche.</p></td>
-            </tr>
-            <tr>
-              <td><img src="./pictures/la-mouche.jpg" alt="Mouche"></td>
-              <td><h3>La mouche</h3><p>La durée de vie moyenne d'une mouche domestique est de 19 jours. Plus exactement 17 jours pour le mâle et 21 jours pour la femelle.</p></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+    <div id="page-content">
+      <div class="container-fluid">
+        <div class="card text-center" id="summary">
+          <img id="img-profile" class="img-circle" src="./pictures/calvin.jpg" alt="Oim" id="logo">
+          <h1>Hugo Daniel</h1>
+          <h2>CEO @VlaBienCorp</h2>
+          <p>Le savon de marseille est un animal aquatique incompressible. Il est bien connu pour sa faculté à diffracter la lumière des ampoules basse consommation <strong>de marque Leclerc.</strong></p>
+          <a class="btn-red" href="https://www.savoir-inutile.com/" target="_blank">Apprend vla les trucs</a>
+        </div>
 
-      <div class="card text-center">
-        <h2>Qui c'est que qu'est ce qu'elle est cette page ?</h2>
-        <p>Cette page c'est mon blog pour partager avec les gens des choses que j'aime bien. Elle fut développée en 1785, peu avant le siège de Stalingrad, pour palier au manque de nourriture des populations d'Eurasie centrale. Merci pour elle.</p>
-        <ul class="list-inline">
-          <li><a href=""><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-          <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
-          <li><a href=""><i class="fa fa-share" aria-hidden="true"></i></a></li>
-        </ul>
+        <div class="container">
+          <div class="planet"></div>
+          <div class="rocket"></div>
+        </div>
+
+        <div class="card text-center">
+          <ul class="list-inline">
+            <li class="text-center"><a href="https://www.9gag.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> <br>Facebook</a></li>
+            <li class="text-center"><a href="https://www.9gag.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> <br>LinkedIn</a></li>
+            <li class="text-center"><a href="https://www.9gag.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> <br>Twitter</a></li>
+          </ul>
+        </div>
+
+        <div class="card text-center" id="facts">
+          <h2>Mes connaissances que je préfère les plus</h2>
+          <table id="facts">
+            <tbody>
+              <tr>
+                <td><img src="./pictures/index.jpeg" alt="Escargot"></td>
+                <td><h3>L'escargot</h3><p>L'esgargot il a plus de 20 000 dents microscopiques sur sa langue.</p></td>
+              </tr>
+              <tr>
+                <td><img src="./pictures/blanchiment-des-dents.jpeg" alt="Dent"></td>
+                <td><h3>Fait divers</h3><p>En 1977, un jeune de 13 ans a remarqué qu'une dent poussait sur son pied gauche.</p></td>
+              </tr>
+              <tr>
+                <td><img src="./pictures/la-mouche.jpg" alt="Mouche"></td>
+                <td><h3>La mouche</h3><p>La durée de vie moyenne d'une mouche domestique est de 19 jours. Plus exactement 17 jours pour le mâle et 21 jours pour la femelle.</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card text-center" id="footer">
+          <h2>Qui c'est que qu'est ce qu'elle est cette page ?</h2>
+          <p>Cette page c'est mon blog pour partager avec les gens des choses que j'aime bien. Elle fut développée en 1785, peu avant le siège de Stalingrad, pour palier au manque de nourriture des populations d'Eurasie centrale. Merci pour elle.</p>
+          <ul class="list-inline">
+            <li><a href=""><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-star" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-share" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
 
       </div>
     </div>
