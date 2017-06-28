@@ -244,6 +244,7 @@ table {
     overflow: hidden;
     text-align: center;
     margin-left: 120px;
+    border-radius: 4px;
 }
 
 /* Style the links inside the navigation bar */
