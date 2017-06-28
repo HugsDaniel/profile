@@ -103,3 +103,19 @@ table {
 .list-inline li i {
     font-size: 25px;
 }
+
+#facts {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+#facts td {
+    padding: 10px;
+}
+
+#facts img {
+  width: 100px;
+  border-radius: 2px;
+  margin: 6px;
+}
